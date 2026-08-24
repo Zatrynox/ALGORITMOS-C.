@@ -21,8 +21,8 @@ EJEMPLO
 # Funcion sumar
 
 > def Sumar2Nros(nr1 , nr2):  
- 	   (ESPACIO)  suma = nr1 + nr2  
-		(ESPACIO)	return suma
+ 	   >  suma = nr1 + nr2  
+		>	return suma
 
 ----
 
