@@ -186,3 +186,44 @@ print(f"La distancia del punto1 y punto2 es: {distance_points(points[0], points[
 ```
  
 ---
+
+## TESTEO FALLADO
+Si se prueba la forma temporal, en algunos casos el recursivo será más veloz, lo cual es una contradicción gigante demostrando sus fallas y poca fiabilidad
+
+```python
+
+import time
+def factorial(n):
+  respuesta = 1
+  
+  while n > 1:
+    respuesta *= n
+    n -= 1
+
+  return respuesta
+
+def factorial_r(n):
+  if n == 1:
+    return 1
+
+  return n * factorial_r(n-1)
+
+
+#Calcular tiempo
+
+if __name__ == '__main__':
+  n = 200
+
+
+  comienzo = time.time()
+  factorial(n)
+  final = time.time()
+  print(final - comienzo)
+
+  comienzo = time.time()
+  factorial_r(n)
+  final = time.time()
+  print(final - comienzo)
+```
+ 
+---
