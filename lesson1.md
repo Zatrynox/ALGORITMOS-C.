@@ -10,6 +10,7 @@ ESPACIAL: Busca distintas soluciones
 ---
 # Complejidad Temporal: "T(n)"
 1° Cronometrar el tiempo (SUBJETIVO, YA QUE DEPENDE DE LA POTENCIA DEL DISPOSITIVO QUE LO TESTEA)
+---
 2° Contar pasos con una medida abstracta (POSIBLE MEJOR RESULTADO)
 ---
 
