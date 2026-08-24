@@ -10,18 +10,18 @@ La complejidad algoritmica, ayuda a comparar cual efectividad de algoritmo es me
 
 ---
 
-## 📊 Tipos de Complejidad
+## Tipos de Complejidad
 
 Hay dos tipos de complejidad:
 
 * **Complejidad TEMPORAL**
 * **Complejidad ESPACIAL**
 
-### ⏱️ TEMPORAL
+###  TEMPORAL
 
 Encuentra solucion en el menor tiempo posible
 
-### 💾 ESPACIAL
+###  ESPACIAL
 
 Busca distintas soluciones
 
@@ -29,7 +29,7 @@ Busca distintas soluciones
 
 ---
 
-# ⏱️ Complejidad Temporal: `T(n)`
+#  Complejidad Temporal: `T(n)`
 
 ### 1° Cronometrar el tiempo
 
@@ -43,7 +43,7 @@ Busca distintas soluciones
 
 ---
 
-# 📝 EJEMPLO 1
+#  EJEMPLO 1
 
 ## Escribir la suma de 2 numeros
 
@@ -70,7 +70,7 @@ print("La suma es: ", Sumar2Nros(nr1,nr2))
 
 ---
 
-# 📝 EJEMPLO 2
+#  EJEMPLO 2
 
 ## Escribir un programa para calcular el mayor de dos numeros
 
