@@ -104,6 +104,8 @@ mayor = Mayor2Nrs(n1,n2)
 print(f"El mayor de los numeros {n1} y {n2} es {mayor}")
 ```
 
+---
+
 #  EJEMPLO 3
 
 ## Escribir un programa para calcular el promedio de "n" numeros
