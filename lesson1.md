@@ -127,3 +127,24 @@ promedio = suma/n
  
 #Mostrar resultado 
 print(f"El promedio de las {n} notas son: {promedio}")
+```
+
+---
+
+#  EJEMPLO 4
+
+## Escribir un programa para calcular la distancia entre dos puntos de un plano cartesiano
+
+```python
+x1 = int(input("Ingrese la componente x del primer punto: ")) 
+y1 = int(input("Ingrese la componente y del primer punto: ")) 
+
+x2 = int(input("Ingrese la componente x del segundo punto: ")) 
+x2 = int(input("Ingrese la componente y del segundo punto: ")) 
+
+distancia = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+
+print("La distancia entre los puntos es: ", distancia)
+```
+
+---
