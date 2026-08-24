@@ -140,11 +140,49 @@ x1 = int(input("Ingrese la componente x del primer punto: "))
 y1 = int(input("Ingrese la componente y del primer punto: ")) 
 
 x2 = int(input("Ingrese la componente x del segundo punto: ")) 
-x2 = int(input("Ingrese la componente y del segundo punto: ")) 
+y2 = int(input("Ingrese la componente y del segundo punto: ")) 
 
 distancia = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 
 print("La distancia entre los puntos es: ", distancia)
 ```
+## OTRA FORMA MÁS COMPLEJA BY JULIUS
 
+```python
+import re
+
+pattern = r"^\s*\d+\s*,\s*\d+\s*$"
+
+def parser_point(point_str: str):
+  match = re.match(pattern, point_str)
+  if match:
+    parts = point_str.split(',')
+    x = int(parts[0].strip())
+    y = int(parts[1].strip())
+    return (x, y)
+  else:
+    print(f"Error: El formato de punto '{point_str}' no coincide con el patrón esperado (int,int).")
+    return None
+
+def input_point():
+  while True:
+    point_str = input("Ingrese un punto (ej. 1,2): ")
+    parsed_point = parser_point(point_str)
+    if parsed_point is not None:
+      return parsed_point
+
+def distance_points(point1, point2):
+  x1, y1 = point1
+  x2, y2 = point2
+  return ((x1 - x2)**2 + (y1 - y2)**2)**0.5
+
+points = []
+
+for i in range(1, 3):
+  print(f"Ingrese el punto {i}")
+  points.append(input_point())
+
+print(f"La distancia del punto1 y punto2 es: {distance_points(points[0], points[1])}")
+```
+ 
 ---
