@@ -17,23 +17,25 @@ ESPACIAL: Busca distintas soluciones
 ---
 EJEMPLO
 
-´´´
-# Escribir la suma de 2 numeros
+    # Escribir la suma de 2 numeros
 # Funcion sumar
-def Sumar2Nros(nr1 , nr2):
-  suma = nr1 + nr2
-  return suma
+
+> def Sumar2Nros(nr1 , nr2):  
+	> 	   (ESPACIO)  suma = nr1 + nr2  
+			 (ESPACIO)	return suma
 
 ----
 
 # Registrar datos
-nr1 = int(input("Ingresar numero 1: "))
-nr2 = int(input("Ingresar numero 2: "))
+
+> nr1 = int(input("Ingresar numero 1: ")) 
+> nr2 = int(input("Ingresar numero 2: "))
 
 ---
 
 # Mostrar resultado
-print("La suma es: ", Sumar2Nros(nr1,nr2))
+
+> print("La suma es: ", Sumar2Nros(nr1,nr2))
 
 ---
-´´´
+
