@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Complejidad Algorítmica
+##  Complejidad Algorítmica
 
 La complejidad algoritmica, ayuda a comparar cual efectividad de algoritmo es mejor, entre uno u otro.
 
