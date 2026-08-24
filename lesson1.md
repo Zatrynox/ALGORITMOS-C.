@@ -20,9 +20,9 @@ EJEMPLO
     # Escribir la suma de 2 numeros
 # Funcion sumar
 
-> def Sumar2Nros(nr1 , nr2):
-suma = nr1 + nr2
-return suma
+> def Sumar2Nros(nr1 , nr2):  
+	> 	 >  (ESPACIO)  suma = nr1 + nr2  
+			 (ESPACIO)	return suma
 
 ----
 
