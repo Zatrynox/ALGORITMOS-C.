@@ -103,3 +103,25 @@ mayor = Mayor2Nrs(n1,n2)
 ```python
 print(f"El mayor de los numeros {n1} y {n2} es {mayor}")
 ```
+
+#  EJEMPLO 3
+
+## Escribir un programa para calcular el promedio de "n" numeros
+
+```python
+n = int(input("Ingrese la cantidad de numeros a promediar: ")) 
+ 
+#Calculando la suma de los numeros 
+i = 0 
+suma = 0 
+while i<n: 
+  i+=1 
+  nota = int(input(f"ingresar la nota {i}: ")) 
+  suma = suma + nota 
+ 
+#Calculando el promedio de notas 
+ 
+promedio = suma/n 
+ 
+#Mostrar resultado 
+print(f"El promedio de las {n} notas son: {promedio}")
